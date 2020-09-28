@@ -1,5 +1,5 @@
-#Install ZSH
-sudo apt install zsh -y
+#Install Git and ZSH
+sudo apt install git && sudo apt install zsh -y
 #Install OhMyZsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #Install auto-suggestion
