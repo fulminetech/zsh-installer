@@ -2,8 +2,6 @@
 sudo apt install zsh -y
 #Install OhMyZsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#Change zsh to default
-chsh -s $(which zsh)
 #Install auto-suggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 #Install syntax highlighting
@@ -14,3 +12,5 @@ echo "plugins=(git
 zsh-autosuggestions
 zsh-syntax-highlighting
 )"
+#Change zsh to default
+chsh -s $(which zsh)
